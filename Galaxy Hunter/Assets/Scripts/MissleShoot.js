@@ -13,11 +13,11 @@ function Update () {
     var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
         instance.velocity = Spawn.forward * speed;
         }
-ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-    if(Physics.Raycast(ray, hit)){
-    var point: Vector3 = hit.point;
-
-        Spawn.transform.LookAt(point);
-    }
+//ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//
+//    if(Physics.Raycast(ray, hit)){
+//    var point: Vector3 = hit.point;
+//
+//        Spawn.transform.LookAt(point);
+//    }
 }

@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-CSharp-firstpass.csproj", "{235A969D-CBD4-AB6E-4C48-6A6611E70F18}"
+EndProject
+Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-CSharp.csproj", "{89F8F12B-DAF1-B2DA-AEB8-40340FFFBABB}"
+EndProject
+Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-CSharp-Editor.csproj", "{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{235A969D-CBD4-AB6E-4C48-6A6611E70F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235A969D-CBD4-AB6E-4C48-6A6611E70F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235A969D-CBD4-AB6E-4C48-6A6611E70F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235A969D-CBD4-AB6E-4C48-6A6611E70F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F8F12B-DAF1-B2DA-AEB8-40340FFFBABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F8F12B-DAF1-B2DA-AEB8-40340FFFBABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F8F12B-DAF1-B2DA-AEB8-40340FFFBABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F8F12B-DAF1-B2DA-AEB8-40340FFFBABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
