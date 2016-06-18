@@ -45,7 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Flight Controler\Scripts\Front Wheel.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\Missle Shoot.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\Plane Destroy.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\Plane.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\Smoke Trail.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Flight Controler\Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Scripts\DestroyWhenHit.js" />
      <Compile Include="Assets\Scripts\Fly.js" />
+     <Compile Include="Assets\Scripts\GUI Display.js" />
+     <Compile Include="Assets\Scripts\MissleShoot.js" />
      <Compile Include="Assets\Scripts\PauseMenu.js" />
      <None Include="Assets\sky5X\README.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

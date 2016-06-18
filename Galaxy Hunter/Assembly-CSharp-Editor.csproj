@@ -51,7 +51,7 @@
      <None Include="Assets\spaceship1\readme.txt" />
      <None Include="Assets\spaceship1\Wraith Raider Starship\readme.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/Javier/Desktop/Galaxy Hunter/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/Javier/Desktop/Galaxy Hunter/Galaxy Hunter/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>

@@ -9,13 +9,13 @@ var Alt:int;
 var Spd:int;
 function OnGUI(){ 
 	GUI.skin = guiSkin;
-	GUI.Box(Rect(0, Screen.height-100, 200, 100),"Plane");
-	GUI.Box(Rect(70, Screen.height-80, 120, 70), item0);
-	GUI.Box(Rect(10, Screen.height-80, 50, 70), item1);
-	GUI.Label(Rect(20, Screen.height-80, 100, 50), "Alt...");
-	GUI.Label(Rect(15, Screen.height-60, 100, 50), "Speed");
-	GUI.Label(Rect(80, Screen.height-80, 100, 50), Alt.ToString());
-	GUI.Label(Rect(80, Screen.height-60, 100, 50), Spd.ToString());
+	GUI.Box(Rect(0, Screen.height-100, 220, 100),"Nave");
+	GUI.Box(Rect(90, Screen.height-80, 120, 70), item0);
+	GUI.Box(Rect(10, Screen.height-80, 70, 70), item1);
+	GUI.Label(Rect(20, Screen.height-80, 100, 50), "Altura");
+	GUI.Label(Rect(15, Screen.height-60, 100, 50), "Velicidad");
+	GUI.Label(Rect(100, Screen.height-80, 100, 50), Alt.ToString());
+	GUI.Label(Rect(100, Screen.height-60, 100, 50), Spd.ToString());
 }
 function Update(){
 Alt=plane.transform.position.y;
