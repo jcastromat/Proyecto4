@@ -8653,7 +8653,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: cc6e0a051367746ca8af47ae0b8120ec, type: 3}
       propertyPath: m_Name
-      value: Wraith Raider Starship
+      value: EnemyShip
       objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: cc6e0a051367746ca8af47ae0b8120ec, type: 3}
       propertyPath: m_LocalScale.x
@@ -10496,29 +10496,16 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886848775}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ffdd63dba5094ac4a5fa586975e890f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d75937f692da499bb2fa97272a9c1e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 25
-  speed: 50
---- !u!114 &1886848777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1886848775}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cda17abc72ee2424889197732e2c8fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  logoTexture: {fileID: 0}
-  newSkin: {fileID: 0}
-  PauseGame: 0
---- !u!136 &1886848778
-CapsuleCollider:
+  explosionPrefab: {fileID: 7399263}
+  player: {fileID: 1886848775}
+  healthBar: {fileID: 1727912574}
+--- !u!65 &1886848778
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -10526,10 +10513,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: -481.98352, y: -290.52646, z: -592.26105}
+  m_Center: {x: -0.37556773, y: 148.5207, z: -21.992804}
 --- !u!54 &1886848779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10537,7 +10523,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886848775}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0.5
   m_AngularDrag: 0.05
   m_UseGravity: 1

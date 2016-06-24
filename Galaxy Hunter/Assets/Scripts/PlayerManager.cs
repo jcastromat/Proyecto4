@@ -13,10 +13,9 @@ public class PlayerManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		health = 100;
-//		InvokeRepeating ("ReduceHealth", 1, 1);
 	}
 
-	void ReduceHealth(){
+	public void ReduceHealth(){
 		health = health - 10;
 		healthBar.value = health; 
 		if (health < 0) {
