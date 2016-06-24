@@ -1,12 +1,9 @@
-
-Galaxy Hunter/Assembly-CSharp-Editor.csproj
-
 *.csproj
-
-*.csproj
+*.sln
+*.userprefs
 
 Galaxy Hunter/Library
 
-*.csproj
+Galaxy Hunter/Temp
 
-Galaxy Hunter/Assembly-CSharp-Editor.csproj
+
