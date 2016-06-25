@@ -9,14 +9,22 @@ function OnCollisionEnter(collision : Collision) {
     var rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
     var pos = contact.point;
 
-    if (collision.gameObject.name == "EnemyShip"){
+    if ( collision.gameObject.name == "EnemyShip") {
      	Instantiate(explosionEnemy, pos, rot);
 		collision.gameObject.GetComponent("EnemiesHealth").ReduceHealth();
     }
     else{
-    	Instantiate(explosionTerrain, pos, rot);
+        if ( collision.gameObject.name == "Player") {
+	     	Instantiate(explosionEnemy, pos, rot);
+			collision.gameObject.GetComponent("PlayerHealth").ReduceHealth();
+
+	    }
+	    else{
+    		Instantiate(explosionTerrain, pos, rot);
+    	}
+
     }
 
-    Destroy(gameObject);
+//    Destroy(gameObject);
 
 }
