@@ -3,14 +3,18 @@ var Spawn : Transform;
 var Missle : Rigidbody;
 var waitTime : int;
 var speed : int;
-private var ray : Ray;
+var isMissleActive : boolean;
 
-private var hit : RaycastHit;
+
+function Start(){
+	isMissleActive = true;
+}
 
 function Update () {
-    if(Input.GetKeyDown(KeyCode.Space))
-    {
-    var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
+
+    if((Input.GetKeyDown(KeyCode.Space)) && isMissleActive)
+    {	
+    	var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
         instance.velocity = Spawn.forward * speed;
     }
 //ray = Camera.main.ScreenPointToRay(Input.mousePosition);
