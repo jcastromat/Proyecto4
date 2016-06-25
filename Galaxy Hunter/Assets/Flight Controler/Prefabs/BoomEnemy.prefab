@@ -13,7 +13,7 @@ GameObject:
   - 108: {fileID: 10800000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Boom
+  m_Name: BoomEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.625, g: 0.4375, b: 0.15625, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
@@ -82,7 +82,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   serializedVersion: 2
-  lengthInSec: 1
+  lengthInSec: 0.5
   startDelay:
     scalar: 0
     maxCurve:
@@ -290,10 +290,10 @@ ParticleSystem:
         rgba: 4294967295
       maxColor:
         serializedVersion: 2
-        rgba: 4294967295
+        rgba: 4289921023
       minMaxState: 0
     startSize:
-      scalar: 5
+      scalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -434,13 +434,13 @@ ParticleSystem:
       minMaxState: 0
     randomizeRotationDirection: 0
     gravityModifier: 0
-    maxNumParticles: 1000
+    maxNumParticles: 10
     rotation3D: 0
   ShapeModule:
     serializedVersion: 2
     enabled: 1
     type: 0
-    radius: 0.1
+    radius: 0.05
     angle: 25
     length: 5
     boxX: 1

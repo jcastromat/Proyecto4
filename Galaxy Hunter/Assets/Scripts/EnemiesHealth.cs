@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class PlayerManager : MonoBehaviour {
+public class EnemiesHealth : MonoBehaviour {
 
 	public Transform explosionPrefab;
 	public GameObject player;
@@ -18,17 +18,11 @@ public class PlayerManager : MonoBehaviour {
 	public void ReduceHealth(){
 		health = health - 10;
 		healthBar.value = health; 
-		if (health < 0) {
+		if (health <= 0) {
 //			player.GetComponent<Animator> ().SetTrigger ("isDead"); 
 			Instantiate(explosionPrefab, player.transform.position, player.transform.rotation);
 			Destroy (player, 0);
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown ("1")) {
-			ReduceHealth ();
-		}
-	}
+
 }

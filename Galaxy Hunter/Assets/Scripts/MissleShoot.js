@@ -9,8 +9,8 @@ private var hit : RaycastHit;
 
 function Update () {
     if(Input.GetKeyDown(KeyCode.Space))
-    {
-    var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
+    {	
+    	var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
         instance.velocity = Spawn.forward * speed;
     }
 //ray = Camera.main.ScreenPointToRay(Input.mousePosition);
