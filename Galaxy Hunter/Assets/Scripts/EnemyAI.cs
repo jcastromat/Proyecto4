@@ -26,7 +26,7 @@ public class EnemyAI : MonoBehaviour {
 			chase ();
 		}
 
-		if (playerDistance < 20f) {
+		if (playerDistance < 50f) {
 			attack ();
 		}
 	}
