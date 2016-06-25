@@ -15,6 +15,7 @@ function Update () {
     if((Input.GetKeyDown(KeyCode.Space)) && isMissleActive)
     {	
     	var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
+    	Physics.IgnoreCollision(instance.GetComponentInChildren.<MeshCollider>(), gameObject.transform.parent.GetComponent.<BoxCollider>());
         instance.velocity = Spawn.forward * speed;
     }
 //ray = Camera.main.ScreenPointToRay(Input.mousePosition);
