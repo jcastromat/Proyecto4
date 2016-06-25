@@ -25,6 +25,7 @@ function OnCollisionEnter(collision : Collision) {
 
     }
 
-//    Destroy(gameObject);
+//    gameObject.parent.getComponentInChildren("MissleShoot").isMissleAlive = false;
+    Destroy(gameObject);
 
 }
