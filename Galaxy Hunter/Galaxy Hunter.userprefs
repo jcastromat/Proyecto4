@@ -1,10 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< Updated upstream
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TimerS.js">
     <Files>
       <File FileName="Assets\Scripts\MenuPrincipal.cs" Line="7" Column="25" />
       <File FileName="Assets\Scripts\Timer.cs" Line="35" Column="46" />
       <File FileName="Assets\Scripts\TimerS.js" Line="18" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Fly.js">
+    <Files>
+      <File FileName="Assets/Scripts/MissleShoot.js" Line="10" Column="67" />
+      <File FileName="Assets/Scripts/Float.cs" Line="19" Column="3" />
+      <File FileName="Assets/Scripts/Fly.js" Line="36" Column="48" />
+      <File FileName="Assets/Scripts/EnemyAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WhenHit.js" Line="7" Column="22" />
+      <File FileName="Assets/Scripts/EnemyShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerHealth.cs" Line="1" Column="1" />
+>>>>>>> Stashed changes
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

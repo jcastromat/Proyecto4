@@ -3,26 +3,15 @@ var Spawn : Transform;
 var Missle : Rigidbody;
 var waitTime : int;
 var speed : int;
-var isMissleActive : boolean;
 
-
-function Start(){
-	isMissleActive = true;
-}
 
 function Update () {
 
-    if((Input.GetKeyDown(KeyCode.Space)) && isMissleActive)
+    if((Input.GetKeyDown(KeyCode.Space)) && (Missle.GetComponent.<WhenHit>().activeMissle) )
     {	
     	var instance : Rigidbody = Instantiate(Missle, Spawn.position, Spawn.rotation);
     	Physics.IgnoreCollision(instance.GetComponentInChildren.<MeshCollider>(), gameObject.transform.parent.GetComponent.<BoxCollider>());
         instance.velocity = Spawn.forward * speed;
     }
-//ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-//
-//    if(Physics.Raycast(ray, hit)){
-//    var point: Vector3 = hit.point;
-//
-//        Spawn.transform.LookAt(point);
-//    }
+
 }

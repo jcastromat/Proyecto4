@@ -1,6 +1,11 @@
 ﻿
 var explosionTerrain : Transform;
 var explosionEnemy : Transform;
+var activeMissle : boolean;
+
+function Start(){
+	activeMissle = true;
+}
 
 function OnCollisionEnter(collision : Collision) {
 
@@ -25,7 +30,9 @@ function OnCollisionEnter(collision : Collision) {
 
     }
 
-//    gameObject.parent.getComponentInChildren("MissleShoot").isMissleAlive = false;
+    activeMissle = false;
     Destroy(gameObject);
+
+
 
 }
