@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
-var rotateSpeed = 25.0;
-var speed = 50.0;
+var rotateSpeed = 50.0;
+var speed = 25.0;
  
 function Update() {
 	var transAmount = speed * Time.deltaTime;

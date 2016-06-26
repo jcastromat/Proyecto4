@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\EnemiesHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyShoot.cs" />
+     <Compile Include="Assets\Scripts\Float.cs" />
      <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
