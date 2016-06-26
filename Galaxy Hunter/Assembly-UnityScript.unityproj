@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Fly.js" />
      <Compile Include="Assets\Scripts\GUI Display.js" />
      <Compile Include="Assets\Scripts\MissleShoot.js" />
+     <Compile Include="Assets\Scripts\OpcionGrafica.js" />
      <Compile Include="Assets\Scripts\PauseMenu.js" />
      <Compile Include="Assets\Scripts\Smoke Trail.js" />
      <Compile Include="Assets\Scripts\TimerS.js" />
