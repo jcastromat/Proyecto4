@@ -8,6 +8,8 @@
 /[Ll]ibrary/
 sysinfo.txt
 *.stackdump
+Galaxy Hunter/Library
+Galaxy Hunter/Temp
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
