@@ -18,15 +18,15 @@ public class EnemyAI : MonoBehaviour {
 	void Update () {
 		playerDistance = Vector3.Distance (player.position, transform.position); 
 
-		if (playerDistance < 80f) {
+		if (playerDistance < 100f) {
 			lookAtPlayer ();
 		}
 
-		if ((playerDistance < 60f) && (playerDistance > 10f))  {
+		if ((playerDistance < 80f) && (playerDistance > 10f))  {
 			chase ();
 		}
 
-		if (playerDistance < 50f) {
+		if (playerDistance < 40f) {
 			attack ();
 		}
 	}

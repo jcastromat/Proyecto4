@@ -14,8 +14,9 @@ public class CreateEnemies : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		for (int i = 0; i < instanceCount; ++i) {
-
-			GameObject instance = Instantiate (enemyShip, spawn.position, spawn.rotation) as GameObject;
+			//Random.insideUnitCircle * 500
+			Vector3 position = new Vector3(Random.Range(900f, 1100f), Random.Range(60f, 80f), Random.Range(900f, 1000f));
+			GameObject instance = Instantiate (enemyShip, position , spawn.rotation) as GameObject;
 
 		}
 	}
