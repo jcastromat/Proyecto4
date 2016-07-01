@@ -15,8 +15,9 @@ function OnCollisionEnter(collision : Collision) {
     var pos = contact.point;
 
     if ( collision.gameObject.name == "EnemyShip") {
+    	print("HITTT");
      	Instantiate(explosionEnemy, pos, rot);
-		collision.gameObject.GetComponent("EnemiesHealth").ReduceHealth();
+		collision.gameObject.transform.parent.GetComponent("EnemiesHealth").ReduceHealth();
     }
     else{
         if ( collision.gameObject.name == "Player") {

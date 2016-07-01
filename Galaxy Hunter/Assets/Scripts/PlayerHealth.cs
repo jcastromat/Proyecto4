@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
 	}
 
 	public void ReduceHealth(){
-		health = health - 5;
+		health = health - 1;
 		healthBar.value = health; 
 		if (health <= 0) {
 			//			player.GetComponent<Animator> ().SetTrigger ("isDead"); 

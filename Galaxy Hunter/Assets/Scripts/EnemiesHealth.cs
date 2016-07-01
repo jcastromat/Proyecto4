@@ -8,7 +8,7 @@ public class EnemiesHealth : MonoBehaviour {
 	public GameObject player;
 	public Slider healthBar;
 
-	public static int health = 100;
+	public int health = 100;
 
 	// Use this for initialization
 	void Start () {
