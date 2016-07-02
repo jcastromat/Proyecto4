@@ -2,14 +2,21 @@
 
 var rotateSpeed = 50.0;
 var speed = 25.0;
+
+var yPos = 0.0f;
+var floatingSpeed = 1;
+var amplitude = 3;
+
+function Start(){
+	yPos = transform.position.y;
+}
  
 function Update() {
 	var transAmount = speed * Time.deltaTime;
 	var rotateAmount = rotateSpeed * Time.deltaTime;
-	 
+
 	if (Input.GetKey("up")) {
 		transform.Rotate(rotateAmount, 0, 0);	
-
 	}
 	if (Input.GetKey("down")) {
 		transform.Rotate(-rotateAmount, 0, 0);	
@@ -30,17 +37,13 @@ function Update() {
 	}
 	        
 	if (Input.GetKey ("left shift")) {
-//		if (speed == 0) {
-//			speed = 100.0;
-//		}
 		transform.Translate(0, 0, (transAmount * 2));
+		yPos = transform.position.y;
+	} else
+	{
+		var temp = transform.position;
+		temp.y = yPos + amplitude * Mathf.Sin (floatingSpeed * Time.time);
+		transform.position = temp;
 	}
-//	else {
-//		transform.Translate(0, 0, transAmount / 2);
-//	}
-//
-//	if (Input.GetKey ("b")) {
-//			speed = 0;
-//	}
 
 }
