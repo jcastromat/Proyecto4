@@ -5,6 +5,7 @@ public class MenuPrincipal : MonoBehaviour {
 
 	public float min = 0.0f;
 	public float seg = 0.0f;
+	public string scene = "";
 
 	public static MenuPrincipal menuP;
 
@@ -35,7 +36,7 @@ public class MenuPrincipal : MonoBehaviour {
 	}
 
 	public void NewGame(){
-		Application.LoadLevel("Scene1");
+		Application.LoadLevel(scene);
 	}
 
 	public void Quit(){
@@ -59,6 +60,18 @@ public class MenuPrincipal : MonoBehaviour {
 	public void quince(){
 	
 		min = 15f;
+	
+	}
+
+	public void PrincipalScene(){
+
+		scene = "Scene1";
+	
+	}
+
+	public void MontainScene(){
+
+		scene = "EscenarioIslaVolcal";
 	
 	}
 
