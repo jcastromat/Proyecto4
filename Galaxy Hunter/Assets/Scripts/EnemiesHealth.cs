@@ -22,6 +22,7 @@ public class EnemiesHealth : MonoBehaviour {
 //			player.GetComponent<Animator> ().SetTrigger ("isDead"); 
 			Instantiate(explosionPrefab, player.transform.position, player.transform.rotation);
 			Destroy (player, 0);
+			GameObject.FindWithTag ("PlayerManager").GetComponent<ManageScore> ().Increase10();
 		}
 	}
 
