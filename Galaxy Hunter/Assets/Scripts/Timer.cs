@@ -21,7 +21,6 @@ public class Timer : MonoBehaviour {
 		MenuPrincipal menu = menuP.GetComponent<MenuPrincipal>();
 		maxTime = menu.min;
 
-
 		nextTime = Time.time;
 		minutos = (nextTime/60);
 		segundos = nextTime%60;
