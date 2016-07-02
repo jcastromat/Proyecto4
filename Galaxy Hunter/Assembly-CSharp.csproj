@@ -54,7 +54,9 @@
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\WhenLaserHit.cs" />
      <None Include="Assets\sky5X\README.txt" />
+     <None Include="Assets\EnergyWeapons\_Textures\VFX_EWLightningSpriteA_D.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\spaceship1\readme.txt" />
      <None Include="Assets\spaceship1\Wraith Raider Starship\readme.txt" />
