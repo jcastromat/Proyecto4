@@ -10,8 +10,6 @@ public class WhenLaserHit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Physics.Raycast(transform.position, transform.right, out hit, 500)){
-			//print ("found something " + hit.collider.name );
-
 
 			if (hit.collider.gameObject.name == "EnemyShip"){
 				Instantiate(explosionEnemy, hit.point, transform.rotation);
@@ -30,29 +28,5 @@ public class WhenLaserHit : MonoBehaviour {
 			}
 		}
 	}
-
-//	IEnumerator FireLaser()
-//	{
-//
-//		while(Input.GetKey(KeyCode.P))
-//		{
-//			
-//
-//			line.SetPosition(0, ray.origin);
-//			if(Physics.Raycast(ray, out hit, 150))
-//			{
-//				line.SetPosition(1, hit.point);
-//				if(hit.rigidbody)
-//				{
-//					hit.rigidbody.AddForceAtPosition(transform.forward * 10, hit.point);
-//				}
-//			}
-//			else
-//				line.SetPosition(1, ray.GetPoint(100));
-//
-//			yield return null;
-//		}
-//	}
-//
 
 }
