@@ -20,6 +20,8 @@ function OnGUI(){
 	GUI.Label(Rect(100, Screen.height-60, 100, 50), Spd.ToString());
 	GUI.Label(Rect(100, Screen.height-40, 100, 50), Weapon);
 }
+
+
 function Update(){
 
 Alt=plane.transform.position.y;
