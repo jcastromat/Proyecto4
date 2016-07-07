@@ -22,6 +22,11 @@ public class PlayerHealth : MonoBehaviour
 			//			player.GetComponent<Animator> ().SetTrigger ("isDead"); 
 			Instantiate(explosionPrefab, player.transform.position, player.transform.rotation);
 			Destroy (player, 0);
+
+			// Show Game Over message
+			GameObject gameOverUI = GameObject.FindWithTag ("Canvas").transform.GetChild (2).gameObject;
+			gameOverUI.GetComponent<UnityEngine.UI.Text>().text = "GAME  OVER \n\n SCORE  " + GameObject.FindWithTag("PlayerManager").GetComponent<ManageScore>().currentScore;;
+			gameOverUI.SetActive (true);
 		}
 	}
 

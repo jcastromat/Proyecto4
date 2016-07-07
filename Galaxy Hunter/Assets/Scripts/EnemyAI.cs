@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour {
 	void attack(){
 		RaycastHit hit;
 		if (Physics.Raycast (transform.position, transform.forward, out hit)){
-			if ((hit.collider.gameObject.name == "Player") && (!waitAttack) ){
+			if ((hit.collider.gameObject.name == "PlayerShip") && (!waitAttack) ){
 				Component[] spawns = gameObject.GetComponentsInChildren<EnemyShoot> ();
 				foreach (EnemyShoot spawn in spawns) {
 					spawn.Shoot ();
