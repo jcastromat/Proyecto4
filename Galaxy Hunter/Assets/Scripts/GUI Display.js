@@ -21,7 +21,12 @@ function OnGUI(){
 	GUI.Label(Rect(100, Screen.height-40, 100, 50), Weapon);
 }
 function Update(){
+
 Alt=plane.transform.position.y;
 Spd=plane.GetComponent.<Rigidbody>().velocity.magnitude;
 Weapon=plane.GetComponent.<WeaponSwitching>().currentWeapon;
+
+var score = GameObject.FindWithTag("Score").GetComponent.<UnityEngine.UI.Text>();
+score.text= "PUNTAJE:   " + GameObject.FindWithTag("PlayerManager").GetComponent.<ManageScore>().currentScore;
+
 }
