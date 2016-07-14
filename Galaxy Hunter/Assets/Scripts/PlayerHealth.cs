@@ -8,11 +8,11 @@ public class PlayerHealth : MonoBehaviour
 	public GameObject player;
 	public Slider healthBar;
 
-	public static int health = 100;
+	public int health;
 
 	// Use this for initialization
 	void Start () {
-		health = 100;
+		health = (int)GameObject.FindWithTag ("HealthBar").transform.GetComponent<Slider> ().maxValue;
 	}
 
 	public void ReduceHealth(){
