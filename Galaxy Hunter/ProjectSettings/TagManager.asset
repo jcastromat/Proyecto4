@@ -9,6 +9,9 @@ TagManager:
   - ScriptMenuPrincipal
   - GameOver
   - Canvas
+  - PowerUpsButton
+  - HealthBar
+  - PlayerShip
   layers:
   - Default
   - TransparentFX
