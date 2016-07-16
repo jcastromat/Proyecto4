@@ -4,7 +4,7 @@ var Missle01 : GameObject;
 var Missle02 : GameObject;
 var Laser : GameObject;
 var Plasma : GameObject;
-var currentWeapon = "Misil";
+var currentWeapon = "Missile";
 
 
 function Update () {
@@ -18,7 +18,7 @@ function SwapWeapons(){
 		Plasma.SetActive(false);
 		Missle01.SetActive(true);
 		Missle02.SetActive(true);
-		currentWeapon = "Misil";
+		currentWeapon = "Missile";
 	}
 	else{
 		if(Missle01.active == true){

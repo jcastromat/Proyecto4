@@ -65,13 +65,13 @@ public class MenuPrincipal : MonoBehaviour {
 
 	public void PrincipalScene(){
 
-		scene = "Scene1";
+		scene = "Desierto";
 	
 	}
 
 	public void MontainScene(){
 
-		scene = "EscenarioIslaVolcal";
+		scene = "Montana";
 	
 	}
 
