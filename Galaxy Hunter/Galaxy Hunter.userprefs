@@ -1,15 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WhenHit.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuPrincipal.cs">
     <Files>
+      <File FileName="Assets/Standard Assets/ManageScore.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Float.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Fly.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GUI Display.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GUI Display.js" Line="13" Column="58" />
       <File FileName="Assets/Scripts/WhenHit.js" Line="31" Column="6" />
-      <File FileName="Assets/Scripts/MissleShoot.js" Line="2" Column="1" />
+      <File FileName="Assets/Scripts/MissleShoot.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LaserShoot.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WhenLaserHit.cs" Line="12" Column="69" />
+      <File FileName="Assets/Scripts/WhenLaserHit.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponSwitching.js" Line="21" Column="27" />
+      <File FileName="Assets/Scripts/TimerS.js" Line="19" Column="85" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="34" Column="91" />
+      <File FileName="Assets/Scripts/CreateEnemies.cs" Line="25" Column="2" />
+      <File FileName="Assets/Scripts/PowerUps.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuPrincipal.cs" Line="68" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

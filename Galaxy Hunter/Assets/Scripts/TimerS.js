@@ -16,6 +16,6 @@ function Update () {
 }
 
 function OnGUI(){
-	GUI.Box(new Rect(Screen.width/2 -100, 0, 200, 50), "Minutos: " +minutos +" Segundos " +segundos);
+	GUI.Box(new Rect(Screen.width/2 -100, 0, 200, 50), "Minutes: " +minutos +" Seconds: " +segundos);
 
 }
