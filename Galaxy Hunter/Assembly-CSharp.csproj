@@ -52,7 +52,6 @@
      <Compile Include="Assets\Scripts\Float.cs" />
      <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\ScrollRectSnap_CS.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\WhenLaserHit.cs" />
