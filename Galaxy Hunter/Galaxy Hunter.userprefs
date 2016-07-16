@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WhenLaserHit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WhenHit.js">
     <Files>
-      <File FileName="Assets/Scripts/Float.cs" Line="7" Column="17" />
-      <File FileName="Assets/Scripts/Fly.js" Line="25" Column="3" />
-      <File FileName="Assets/Scripts/GUI Display.js" Line="21" Column="56" />
-      <File FileName="Assets/Scripts/WhenHit.js" Line="28" Column="7" />
+      <File FileName="Assets/Scripts/Float.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fly.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GUI Display.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WhenHit.js" Line="31" Column="6" />
       <File FileName="Assets/Scripts/MissleShoot.js" Line="2" Column="1" />
-      <File FileName="Assets/Scripts/LaserShoot.js" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/LaserShoot.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WhenLaserHit.cs" Line="12" Column="69" />
       <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="1" Column="1" />
     </Files>
