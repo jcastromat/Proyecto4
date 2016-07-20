@@ -3077,7 +3077,7 @@ Camera:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166476}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.1921569, g: 0.38104123, b: 0.47450984, a: 0.019607844}
@@ -5918,7 +5918,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166476}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &9266480
 Behaviour:
   m_ObjectHideFlags: 1
@@ -6094,7 +6094,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ddae1c59cc544c9b9d43fee1eae1d56, type: 3}
   m_Name: 

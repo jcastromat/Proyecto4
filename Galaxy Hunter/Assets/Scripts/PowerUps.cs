@@ -41,7 +41,7 @@ public class PowerUps : MonoBehaviour {
 		} else {
 			GameObject.FindWithTag ("PlayerShip").GetComponent<BoxCollider> ().enabled = false;
 			GameObject.FindWithTag ("Player").transform.GetComponentInChildren<ManageScore> ().currentScore -= 150;
-			StartCoroutine(Immune(10.0F));
+			StartCoroutine(Immune(15.0F));
 		}
 	}
 

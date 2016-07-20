@@ -5,7 +5,7 @@ var speed = 50.0;
 
 var yPos = 0.0f;
 var floatingSpeed = 1;
-var amplitude = 3;
+var amplitude = 1;
 
 function Start(){
 	yPos = transform.position.y;
@@ -32,7 +32,7 @@ function Update() {
 		transform.Rotate(0, 0, rotateAmount);
 	}
 	        
-	if (Input.GetKey ("x")) {
+	if (Input.GetKey ("c")) {
 		transform.Rotate(0, 0, -rotateAmount);
 	}
 	        

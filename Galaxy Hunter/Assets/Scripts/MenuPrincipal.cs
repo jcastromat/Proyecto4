@@ -75,4 +75,12 @@ public class MenuPrincipal : MonoBehaviour {
 	
 	}
 
+	public void MultiplayerScene(){
+
+		scene = "Multiplayer";
+
+	}
+
+
+
 }
