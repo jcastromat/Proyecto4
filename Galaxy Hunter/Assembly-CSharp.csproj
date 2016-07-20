@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\EnemyShoot.cs" />
      <Compile Include="Assets\Scripts\Float.cs" />
      <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
+     <Compile Include="Assets\Scripts\MultiplayerSetup.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PowerUps.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
