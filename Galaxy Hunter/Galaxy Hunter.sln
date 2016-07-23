@@ -7,6 +7,10 @@ Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-C
 EndProject
 Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-CSharp-Editor.csproj", "{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}"
 EndProject
+Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-UnityScript-firstpass.unityproj", "{6494E57B-ED32-7FB4-D341-47EEB00096BA}"
+EndProject
+Project("{5BDEA6B9-5CDF-114E-C47F-71A0FE165DD7}") = "Galaxy Hunter", "Assembly-UnityScript.unityproj", "{6EF1C00B-3748-666F-8A12-B5F47E1F75ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC844F31-DA24-84AC-0D64-65E59B5A3D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6494E57B-ED32-7FB4-D341-47EEB00096BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6494E57B-ED32-7FB4-D341-47EEB00096BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6494E57B-ED32-7FB4-D341-47EEB00096BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6494E57B-ED32-7FB4-D341-47EEB00096BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF1C00B-3748-666F-8A12-B5F47E1F75ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF1C00B-3748-666F-8A12-B5F47E1F75ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF1C00B-3748-666F-8A12-B5F47E1F75ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF1C00B-3748-666F-8A12-B5F47E1F75ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
