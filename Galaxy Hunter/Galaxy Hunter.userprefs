@@ -1,9 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiplayerSetup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Save.js">
     <Files>
       <File FileName="Assets/Scripts/MultiplayerSetup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Fly.js" Line="35" Column="22" />
+      <File FileName="Assets/Scripts/MenuPrincipal.cs" Line="46" Column="38" />
+      <File FileName="Assets/Scripts/PauseMenu.js" Line="48" Column="12" />
+      <File FileName="Assets/Standard Assets/Save.js" Line="22" Column="61" />
+      <File FileName="Assets/Standard Assets/ManageScore.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -214,6 +214,7 @@ GameObject:
   - 114: {fileID: 11404386}
   - 114: {fileID: 11463620}
   - 114: {fileID: 11474152}
+  - 114: {fileID: 11449950}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2195,7 +2196,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121444}
-  m_LocalRotation: {x: -0.617174, y: -0.3451032, z: -0.34510314, w: 0.617174}
+  m_LocalRotation: {x: -0.6171741, y: -0.34510323, z: -0.34510317, w: 0.6171741}
   m_LocalPosition: {x: 2.006766, y: 1.7259899, z: -2.3714333}
   m_LocalScale: {x: 0.2533344, y: 0.009546968, z: 0.2132533}
   m_Children: []
@@ -6016,6 +6017,18 @@ MonoBehaviour:
   Missle: {fileID: 5417702, guid: 7b6ff3227c05f4bc99f4451575b93ec6, type: 2}
   waitTime: 1
   speed: 200
+--- !u!114 &11449950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e886a374791a046ab83ca70c2bee2bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 112536}
 --- !u!114 &11455260
 MonoBehaviour:
   m_ObjectHideFlags: 1

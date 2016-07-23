@@ -85,6 +85,22 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &205501724 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 113156, guid: 5d4f4e282bbbd4fbc859fd8072b23096, type: 2}
+  m_PrefabInternal: {fileID: 1089158618}
+--- !u!114 &205501726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 205501724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e886a374791a046ab83ca70c2bee2bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 205501724}
 --- !u!1 &205812851
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,11 +171,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 22492282, guid: 5d4f4e282bbbd4fbc859fd8072b23096, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22492282, guid: 5d4f4e282bbbd4fbc859fd8072b23096, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 440550, guid: 5d4f4e282bbbd4fbc859fd8072b23096, type: 2}
       propertyPath: m_LocalPosition.x
