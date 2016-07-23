@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour {
 
@@ -36,7 +37,14 @@ public class MenuPrincipal : MonoBehaviour {
 	}
 
 	public void NewGame(){
-		Application.LoadLevel(scene);
+		//Application.LoadLevel(scene);
+		PlayerPrefs.SetString("game", "new");
+		UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+	}
+
+	public void LoadGame(){
+		PlayerPrefs.SetString("game", "load");
+		UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerPrefs.GetString("scene"));
 	}
 
 	public void Quit(){

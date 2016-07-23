@@ -32,11 +32,11 @@ function Update() {
 		transform.Rotate(0, 0, rotateAmount);
 	}
 	        
-	if (Input.GetKey ("c")) {
+	if (Input.GetKey ("x")) {
 		transform.Rotate(0, 0, -rotateAmount);
 	}
 	        
-	if (Input.GetKey ("left shift")) {
+	if (Input.GetKey ("left shift") || (Input.GetKey("a"))) {
 		transform.Translate(0, 0, (transAmount * 2));
 		yPos = transform.position.y;
 	} else
