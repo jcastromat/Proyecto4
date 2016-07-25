@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerManager
+  - Score
+  - ScriptMenuPrincipal
+  - GameOver
+  - Canvas
+  - PowerUpsButton
+  - HealthBar
+  - PlayerShip
   layers:
   - Default
   - TransparentFX

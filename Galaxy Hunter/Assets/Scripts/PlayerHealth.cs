@@ -8,11 +8,11 @@ public class PlayerHealth : MonoBehaviour
 	public GameObject player;
 	public Slider healthBar;
 
-	public static int health = 100;
+	public int health;
 
 	// Use this for initialization
 	void Start () {
-		health = 100;
+		health = (int)GameObject.FindWithTag ("HealthBar").transform.GetComponent<Slider> ().maxValue;
 	}
 
 	public void ReduceHealth(){
@@ -22,6 +22,11 @@ public class PlayerHealth : MonoBehaviour
 			//			player.GetComponent<Animator> ().SetTrigger ("isDead"); 
 			Instantiate(explosionPrefab, player.transform.position, player.transform.rotation);
 			Destroy (player, 0);
+
+			// Show Game Over message
+			GameObject gameOverUI = GameObject.FindWithTag ("Canvas").transform.GetChild (2).gameObject;
+			gameOverUI.GetComponent<UnityEngine.UI.Text>().text = "GAME  OVER \n\n SCORE  " + GameObject.FindWithTag("PlayerManager").GetComponent<ManageScore>().currentScore;;
+			gameOverUI.SetActive (true);
 		}
 	}
 

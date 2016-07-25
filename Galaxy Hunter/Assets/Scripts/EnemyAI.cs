@@ -18,15 +18,15 @@ public class EnemyAI : MonoBehaviour {
 	void Update () {
 		playerDistance = Vector3.Distance (player.position, transform.position); 
 
-		if (playerDistance < 100f) {
+		if (playerDistance < 150f) {
 			lookAtPlayer ();
 		}
 
-		if ((playerDistance < 80f) && (playerDistance > 10f))  {
+		if ((playerDistance < 100f) && (playerDistance > 15f))  {
 			chase ();
 		}
 
-		if (playerDistance < 40f) {
+		if (playerDistance < 50f) {
 			attack ();
 		}
 	}
@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour {
 	void attack(){
 		RaycastHit hit;
 		if (Physics.Raycast (transform.position, transform.forward, out hit)){
-			if ((hit.collider.gameObject.name == "Player") && (!waitAttack) ){
+			if ((hit.collider.gameObject.name == "PlayerShip") && (!waitAttack) ){
 				Component[] spawns = gameObject.GetComponentsInChildren<EnemyShoot> ();
 				foreach (EnemyShoot spawn in spawns) {
 					spawn.Shoot ();

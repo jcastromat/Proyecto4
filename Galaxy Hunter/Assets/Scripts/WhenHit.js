@@ -31,7 +31,7 @@ function OnCollisionEnter(collision : Collision) {
     }
 
     activeMissle = false;
-    Destroy(gameObject);
+    Destroy(this.gameObject);
 
 
 

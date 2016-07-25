@@ -1,11 +1,11 @@
 ﻿#pragma strict
 
-var rotateSpeed = 50.0;
-var speed = 25.0;
+var rotateSpeed = 75.0;
+var speed = 50.0;
 
 var yPos = 0.0f;
 var floatingSpeed = 1;
-var amplitude = 3;
+var amplitude = 1;
 
 function Start(){
 	yPos = transform.position.y;
@@ -36,7 +36,7 @@ function Update() {
 		transform.Rotate(0, 0, -rotateAmount);
 	}
 	        
-	if (Input.GetKey ("left shift")) {
+	if (Input.GetKey ("left shift") || (Input.GetKey("a"))) {
 		transform.Translate(0, 0, (transAmount * 2));
 		yPos = transform.position.y;
 	} else

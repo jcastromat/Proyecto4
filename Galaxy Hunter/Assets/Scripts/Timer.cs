@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUI.Box(new Rect(Screen.width/2 -100, 0, 350, 50), "Minutos: " +(int)minutos +" Segundos " +(int)segundos);
+		GUI.Box(new Rect(Screen.width/2 -100, 0, 350, 50), "Minutes: " +(int)minutos +" Seconds: " +(int)segundos);
 
 	}
 }
