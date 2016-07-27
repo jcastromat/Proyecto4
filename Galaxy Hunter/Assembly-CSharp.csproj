@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\MultiplayerSetup.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PowerUps.cs" />
+     <Compile Include="Assets\Scripts\ScrollRectSnap_CS.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\WhenLaserHit.cs" />
