@@ -73,7 +73,7 @@ public class MenuPrincipal : MonoBehaviour {
 
 	public void PrincipalScene(){
 
-		scene = "Desierto";
+		scene = "Scene1";
 	
 	}
 
@@ -81,6 +81,16 @@ public class MenuPrincipal : MonoBehaviour {
 
 		scene = "Montana";
 	
+	}
+
+	public void DesertScene(){
+	
+		scene = "Desierto";
+	}
+
+	public void SpaceScene(){
+	
+		scene = "Espacio";
 	}
 
 	public void MultiplayerScene(){
