@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Escenarios/Desierto.unity
   - enabled: 1
     path: Assets/Escenarios/Multiplayer.unity
+  - enabled: 1
+    path: Assets/Escenarios/Espacio.unity
