@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+public var explosionPrefab : GameObject;
+public var playerShip : GameObject;
 var rotateSpeed = 75.0;
 var speed = 50.0;
 
@@ -41,9 +43,26 @@ function Update() {
 		yPos = transform.position.y;
 	} else
 	{
-		var temp = transform.position;
-		temp.y = yPos + amplitude * Mathf.Sin (floatingSpeed * Time.time);
-		transform.position = temp;
+		if (transform.position.y > 20) {
+			GetComponent.<Rigidbody>().Sleep();
+			var temp = transform.position;
+			temp.y = yPos + amplitude * Mathf.Sin (floatingSpeed * Time.time);
+			transform.position = temp;
+		}
 	}
 
+}
+
+function OnCollisionEnter (col : Collision)
+{
+    if( (col.gameObject.name == "Terrain") && (col.impulse.magnitude > 10000))
+    {
+        Instantiate(explosionPrefab, gameObject.transform.position, gameObject.transform.rotation);
+		Destroy (playerShip, 0);
+		GetComponent.<Rigidbody>().isKinematic = true; 
+
+		var gameOverUI = GameObject.FindWithTag ("Canvas").transform.GetChild (2).gameObject;
+		gameOverUI.GetComponent.<UnityEngine.UI.Text>().text = "GAME  OVER \n\n SCORE  " + GameObject.FindWithTag("PlayerManager").GetComponent.<ManageScore>().currentScore;
+		gameOverUI.SetActive (true);
+    }
 }
