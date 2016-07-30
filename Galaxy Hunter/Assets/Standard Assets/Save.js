@@ -20,11 +20,12 @@ function SaveGame(){
 	PlayerPrefs.SetFloat ("xrot", player.transform.rotation.x);
 	PlayerPrefs.SetFloat ("yrot", player.transform.rotation.y);
 	PlayerPrefs.SetFloat ("zrot", player.transform.rotation.z);
-	//PlayerPrefs.SetInt ("health", player.transform.GetComponent("PlayerHealth").health);
+	PlayerPrefs.SetInt ("score", player.transform.GetComponentInChildren(ManageScore).currentScore);
 }
 
 function LoadGame(){
 	var pos = new Vector3(PlayerPrefs.GetFloat ("xpos"),PlayerPrefs.GetFloat ("ypos"),PlayerPrefs.GetFloat ("zpos"));
 	player.transform.position = pos;
 	player.transform.rotation = Quaternion.Euler(PlayerPrefs.GetFloat ("xrot"),PlayerPrefs.GetFloat ("yrot"),PlayerPrefs.GetFloat ("zrot"));
+	player.transform.GetComponentInChildren(ManageScore).currentScore = PlayerPrefs.GetInt ("score");
 }

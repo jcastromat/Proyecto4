@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
 	}
 
 	public void ReduceHealth(){
-		health = health - 1;
+		health = health - 1	;
 		healthBar.value = health; 
 		if (health <= 0) {
 			//			player.GetComponent<Animator> ().SetTrigger ("isDead"); 
@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
 			// Show Game Over message
 			GameObject gameOverUI = GameObject.FindWithTag ("Canvas").transform.GetChild (2).gameObject;
-			gameOverUI.GetComponent<UnityEngine.UI.Text>().text = "GAME  OVER \n\n SCORE  " + GameObject.FindWithTag("PlayerManager").GetComponent<ManageScore>().currentScore;;
+			gameOverUI.GetComponent<UnityEngine.UI.Text>().text = "GAME  OVER \n\n SCORE  " + GameObject.FindWithTag("PlayerManager").GetComponent<ManageScore>().currentScore;
 			gameOverUI.SetActive (true);
 		}
 	}
