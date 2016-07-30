@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: c39e90390e56046488c347fda64d30da
+timeCreated: 1469899499
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AdornoAla
+    100002: AdornoAla_MeshPart0
+    100004: AdornoAla_MeshPart1
+    100006: AdornoLateral
+    100008: AdornoLateral_MeshPart0
+    100010: AdornoLateral_MeshPart1
+    100012: AdornoLateral_MeshPart2
+    100014: AdornoPlatoSuperior
+    100016: Alas
+    100018: Alas_MeshPart0
+    100020: Alas_MeshPart1
+    100022: Alas_MeshPart2
+    100024: Alas_MeshPart3
+    100026: Alas_MeshPart4
+    100028: //RootNode
+    100030: LuzAla
+    100032: LuzDerecha
+    100034: LuzEsferaInferior
+    100036: LuzEsferaSuperior
+    100038: LuzFrente
+    100040: LuzIzquierda
+    100042: LuzTrasera
+    100044: PlatoBase
+    100046: PlatoBase_MeshPart0
+    100048: PlatoBase_MeshPart1
+    100050: PlatoBase_MeshPart2
+    100052: PlatoBase_MeshPart3
+    100054: PlatoBase_MeshPart4
+    400000: AdornoAla
+    400002: AdornoAla_MeshPart0
+    400004: AdornoAla_MeshPart1
+    400006: AdornoLateral
+    400008: AdornoLateral_MeshPart0
+    400010: AdornoLateral_MeshPart1
+    400012: AdornoLateral_MeshPart2
+    400014: AdornoPlatoSuperior
+    400016: Alas
+    400018: Alas_MeshPart0
+    400020: Alas_MeshPart1
+    400022: Alas_MeshPart2
+    400024: Alas_MeshPart3
+    400026: Alas_MeshPart4
+    400028: //RootNode
+    400030: LuzAla
+    400032: LuzDerecha
+    400034: LuzEsferaInferior
+    400036: LuzEsferaSuperior
+    400038: LuzFrente
+    400040: LuzIzquierda
+    400042: LuzTrasera
+    400044: PlatoBase
+    400046: PlatoBase_MeshPart0
+    400048: PlatoBase_MeshPart1
+    400050: PlatoBase_MeshPart2
+    400052: PlatoBase_MeshPart3
+    400054: PlatoBase_MeshPart4
+    2300000: AdornoAla_MeshPart0
+    2300002: AdornoAla_MeshPart1
+    2300004: AdornoLateral_MeshPart0
+    2300006: AdornoLateral_MeshPart1
+    2300008: AdornoLateral_MeshPart2
+    2300010: AdornoPlatoSuperior
+    2300012: Alas_MeshPart0
+    2300014: Alas_MeshPart1
+    2300016: Alas_MeshPart2
+    2300018: Alas_MeshPart3
+    2300020: Alas_MeshPart4
+    2300022: LuzAla
+    2300024: LuzDerecha
+    2300026: LuzEsferaInferior
+    2300028: LuzEsferaSuperior
+    2300030: LuzFrente
+    2300032: LuzIzquierda
+    2300034: LuzTrasera
+    2300036: PlatoBase_MeshPart0
+    2300038: PlatoBase_MeshPart1
+    2300040: PlatoBase_MeshPart2
+    2300042: PlatoBase_MeshPart3
+    2300044: PlatoBase_MeshPart4
+    3300000: AdornoAla_MeshPart0
+    3300002: AdornoAla_MeshPart1
+    3300004: AdornoLateral_MeshPart0
+    3300006: AdornoLateral_MeshPart1
+    3300008: AdornoLateral_MeshPart2
+    3300010: AdornoPlatoSuperior
+    3300012: Alas_MeshPart0
+    3300014: Alas_MeshPart1
+    3300016: Alas_MeshPart2
+    3300018: Alas_MeshPart3
+    3300020: Alas_MeshPart4
+    3300022: LuzAla
+    3300024: LuzDerecha
+    3300026: LuzEsferaInferior
+    3300028: LuzEsferaSuperior
+    3300030: LuzFrente
+    3300032: LuzIzquierda
+    3300034: LuzTrasera
+    3300036: PlatoBase_MeshPart0
+    3300038: PlatoBase_MeshPart1
+    3300040: PlatoBase_MeshPart2
+    3300042: PlatoBase_MeshPart3
+    3300044: PlatoBase_MeshPart4
+    4300000: LuzAla
+    4300002: LuzTrasera
+    4300004: LuzDerecha
+    4300006: LuzIzquierda
+    4300008: LuzFrente
+    4300010: LuzEsferaInferior
+    4300012: LuzEsferaSuperior
+    4300014: AdornoPlatoSuperior
+    4300016: AdornoLateral_MeshPart0
+    4300018: AdornoLateral_MeshPart1
+    4300020: AdornoLateral_MeshPart2
+    4300022: AdornoAla_MeshPart0
+    4300024: AdornoAla_MeshPart1
+    4300026: Alas_MeshPart0
+    4300028: Alas_MeshPart1
+    4300030: Alas_MeshPart2
+    4300032: Alas_MeshPart3
+    4300034: Alas_MeshPart4
+    4300036: PlatoBase_MeshPart0
+    4300038: PlatoBase_MeshPart1
+    4300040: PlatoBase_MeshPart2
+    4300042: PlatoBase_MeshPart3
+    4300044: PlatoBase_MeshPart4
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
