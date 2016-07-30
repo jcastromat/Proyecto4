@@ -33,6 +33,7 @@ function DisplayMenu()
 
 		if(GUI.Button(Rect(55, 50, 180, 40), "Save")) {
 			gameObject.transform.GetComponent("Save").SaveGame();
+			gameObject.transform.GetComponent("SaveHealth").SaveGame();
 		}
 
 		//resume game
