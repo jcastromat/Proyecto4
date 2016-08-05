@@ -110,7 +110,7 @@ Material:
       data:
         first:
           name: _OcclusionStrength
-        second: 0
+        second: 0.11
       data:
         first:
           name: _DetailNormalMapScale
@@ -139,7 +139,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0.75, g: 0.10477942, b: 0.10477942, a: 1}
       data:
         first:
           name: _EmissionColorUI

@@ -23,6 +23,8 @@ public class EnemiesHealth : MonoBehaviour {
 			Instantiate(explosionPrefab, player.transform.position, player.transform.rotation);
 			Destroy (player, 0);
 			GameObject.FindWithTag ("PlayerManager").GetComponent<ManageScore> ().Increase10();
+			GameObject.FindWithTag ("PlayerManager").GetComponent<ManageDestroyed> ().Add();
+		
 		}
 	}
 
