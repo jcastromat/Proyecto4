@@ -1,6 +1,7 @@
 ﻿
 var explosionTerrain : Transform;
 var explosionEnemy : Transform;
+var explosionPlayer : Transform;
 var activeMissle : boolean;
 
 function Start(){
@@ -20,12 +21,12 @@ function OnCollisionEnter(collision : Collision) {
     }
     else{
         if ( collision.gameObject.name == "Player") {
-	     	Instantiate(explosionEnemy, pos, rot);
+	     	Instantiate(explosionPlayer, pos, rot);
 			collision.gameObject.GetComponent("PlayerHealth").ReduceHealth();
 
 	    }
-	    else{
-    		Instantiate(explosionTerrain, pos, rot);
+	    if  (collision.gameObject.name == "Terrain"){
+	    	Instantiate(explosionTerrain, pos, rot);
     	}
 
     }

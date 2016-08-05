@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionTerrain: {fileID: 400000, guid: ad26e381f73a38e4fbb59bdbd813f39c, type: 2}
   explosionEnemy: {fileID: 400000, guid: 46feceb5679ca422e9b240364dd876af, type: 2}
+  explosionPlayer: {fileID: 432230, guid: 8f0a578e279e44c808bde8788c3a59bd, type: 2}
   activeMissle: 1
 --- !u!114 &11474840
 MonoBehaviour:
