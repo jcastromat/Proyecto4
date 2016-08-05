@@ -1,14 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/ManageLevels.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAI.cs">
     <Files>
-      <File FileName="Assets/Standard Assets/ManageLevels.js" Line="20" Column="2" />
-      <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="18" Column="29" />
-      <File FileName="Assets/Standard Assets/ManageScore.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GUI Display.js" Line="31" Column="28" />
-      <File FileName="Assets/Standard Assets/ManageDestroyed.js" Line="17" Column="2" />
-      <File FileName="Assets/Standard Assets/ManagePortal.js" Line="26" Column="34" />
-      <File FileName="Assets/Scripts/DeletePrefs.js" Line="4" Column="26" />
+      <File FileName="Assets/Scripts/EnemyAI.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
