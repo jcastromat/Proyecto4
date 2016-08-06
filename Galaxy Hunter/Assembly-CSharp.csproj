@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\WhenLaserHit.cs" />
      <Compile Include="Assets\Scripts\WhenPlasmaHit.cs" />
+     <None Include="Assets\Naves\Starcruisermilitary\readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
