@@ -45,6 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Standard Assets\ManageDestroyed.js" />
+     <Compile Include="Assets\Standard Assets\ManageLevels.js" />
+     <Compile Include="Assets\Standard Assets\ManagePortal.js" />
      <Compile Include="Assets\Standard Assets\ManageScore.js" />
      <Compile Include="Assets\Standard Assets\Save.js" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
