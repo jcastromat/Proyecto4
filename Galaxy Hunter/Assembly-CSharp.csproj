@@ -60,6 +60,17 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\WhenLaserHit.cs" />
      <Compile Include="Assets\Scripts\WhenPlasmaHit.cs" />
+     <Compile Include="Assets\Store\CurrencyCodeMapper.cs" />
+     <Compile Include="Assets\Store\InventoryActions.cs" />
+     <Compile Include="Assets\Store\InventoryItem.cs" />
+     <Compile Include="Assets\Store\InventoryItemClickEvent.cs" />
+     <Compile Include="Assets\Store\MenuNavigation.cs" />
+     <Compile Include="Assets\Store\PressHandler.cs" />
+     <Compile Include="Assets\Store\StoreActions.cs" />
+     <Compile Include="Assets\Store\StoreContentManager.cs" />
+     <Compile Include="Assets\Store\StoreItemContent.cs" />
+     <Compile Include="Assets\Store\StoreProperties.cs" />
+     <Compile Include="Assets\Store\UseItem.cs" />
      <None Include="Assets\Naves\Starcruisermilitary\readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />

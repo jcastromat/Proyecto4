@@ -50,6 +50,7 @@
      <Compile Include="Assets\Standard Assets\ManagePortal.js" />
      <Compile Include="Assets\Standard Assets\ManageScore.js" />
      <Compile Include="Assets\Standard Assets\Save.js" />
+     <None Include="Assets\Naves\Starcruisermilitary\readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
