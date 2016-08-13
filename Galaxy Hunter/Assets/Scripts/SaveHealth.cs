@@ -19,6 +19,7 @@ public class SaveHealth : MonoBehaviour {
 
 	void SaveGame(){		
 		PlayerPrefs.SetInt ("health", GameObject.FindWithTag ("Player").transform.GetComponent<PlayerHealth> ().health);
+		PlayerPrefs.SetFloat ("ellapsedTime", GameObject.FindWithTag ("Canvas").transform.GetComponent<Timer> ().ellapsed);
 	}
 
 	void LoadGame(){

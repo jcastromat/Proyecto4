@@ -5,25 +5,31 @@ public class Timer : MonoBehaviour {
 
 	public float maxTime;
 	public float time;
-	private float nextTime = 0.5f;
-	private float minutos = 0.0f;
-	private float segundos = 0.0f;
+	public float ellapsed = 0.5f;
+	public float minutos = 0.0f;
+	public float segundos = 0.0f;
 
 	// Use this for initialization
 	void Start () {
-	
+		maxTime = PlayerPrefs.GetFloat ("time");
+		time= Time.time;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		GameObject menuP = GameObject.FindGameObjectWithTag("ScriptMenuPrincipal");
-		MenuPrincipal menu = menuP.GetComponent<MenuPrincipal>();
-		maxTime = menu.min;
+//		GameObject menuP = GameObject.FindGameObjectWithTag("ScriptMenuPrincipal");
+//		MenuPrincipal menu = menuP.GetComponent<MenuPrincipal>();
+//		maxTime = menu.min;
 
-		nextTime = Time.time;
-		minutos = (nextTime/60);
-		segundos = nextTime%60;
+		ellapsed = Time.time - time;
+
+		if (PlayerPrefs.GetString ("game") == "load") {
+			ellapsed += PlayerPrefs.GetFloat ("ellapsedTime");
+		}
+
+		minutos = (ellapsed/60);
+		segundos = ellapsed%60;
 
 		if (maxTime <= minutos)
 			Application.LoadLevel ("MenuPrincipal");
