@@ -48,27 +48,24 @@ public class MenuPrincipal : MonoBehaviour {
 	}
 
 	public void Quit(){
-	
 		Application.Quit ();
 		
 	}
 
 	public void cinco(){
-	
-		min = 5f;
-
+		PlayerPrefs.SetFloat("time", 5f);
+		NewGame ();
 	}
 
 	public void dies(){
-	
-		min = 10f;
+		PlayerPrefs.SetFloat("time", 10f);
+		NewGame ();
 
 	}
 
 	public void quince(){
-	
-		min = 15f;
-	
+		PlayerPrefs.SetFloat("time", 15f);
+		NewGame ();	
 	}
 
 	public void PrincipalScene(){

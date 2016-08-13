@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Store\StoreActions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/ManagePortal.js">
     <Files>
-      <File FileName="Assets\Store\StoreActions.cs" Line="24" Column="15" />
-      <File FileName="Assets\Store\StoreProperties.cs" Line="35" Column="24" />
-      <File FileName="Assets\Store\StoreItemContent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Store\StoreContentManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Store\InventoryItemClickEvent.cs" Line="16" Column="52" />
-      <File FileName="Assets\Store\InventoryActions.cs" Line="220" Column="41" />
+      <File FileName="Assets/Scripts/MenuPrincipal.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="22" Column="62" />
+      <File FileName="Assets/Standard Assets/Save.js" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/SaveHealth.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenu.js" Line="50" Column="77" />
+      <File FileName="Assets/Standard Assets/ManagePortal.js" Line="14" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
