@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Store\StoreActions.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyAI.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/EnemiesHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Store\StoreActions.cs" Line="24" Column="15" />
+      <File FileName="Assets\Store\StoreProperties.cs" Line="35" Column="24" />
+      <File FileName="Assets\Store\StoreItemContent.cs" Line="1" Column="1" />
+      <File FileName="Assets\Store\StoreContentManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Store\InventoryItemClickEvent.cs" Line="16" Column="52" />
+      <File FileName="Assets\Store\InventoryActions.cs" Line="220" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
