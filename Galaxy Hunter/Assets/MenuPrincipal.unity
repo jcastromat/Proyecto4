@@ -224,7 +224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10  Minutos
+  m_Text: 10  Minutes
 --- !u!222 &9928766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Juego Rapido
+  m_Text: Quick Game
 --- !u!222 &121974703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2007,7 +2007,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5  Minutos
+  m_Text: 5  Minutes
 --- !u!222 &198149681
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2994,7 +2994,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Naves
+  m_Text: Spaceships
 --- !u!222 &325108243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3137,7 +3137,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Multi-Player
+  m_Text: Multiplayer
 --- !u!222 &339254714
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3718,7 +3718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Naves
+  m_Text: Spaceships
 --- !u!222 &432203775
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7351,7 +7351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Continue
 --- !u!222 &813001048
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9826,7 +9826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Atras
+  m_Text: Back
 --- !u!222 &1110503141
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11237,7 +11237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Naves
+  m_Text: Spaceships
 --- !u!222 &1232623315
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15011,7 +15011,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escenario Espacio
+  m_Text: Outer Space
 --- !u!222 &1633396098
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15203,7 +15203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Opciones  Graficas
+  m_Text: Graphics
 --- !u!222 &1638807977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15714,7 +15714,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Salir
+  m_Text: Exit
 --- !u!222 &1694432741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15787,7 +15787,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Naves
+  m_Text: Spaceships
 --- !u!222 &1694553847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15860,7 +15860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Juego Nuevo
+  m_Text: New Game
 --- !u!222 &1699286237
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16009,7 +16009,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 15  Minutos
+  m_Text: 15  Minutes
 --- !u!222 &1705777955
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17071,7 +17071,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escenario Desierto
+  m_Text: Arabian Desert
 --- !u!222 &1883680924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17718,7 +17718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Atras
+  m_Text: Back
 --- !u!222 &1937170078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18539,7 +18539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Atras
+  m_Text: Back
 --- !u!222 &2010984505
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19271,7 +19271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Atras
+  m_Text: Back
 --- !u!222 &2046043553
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19650,7 +19650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escenario Montana
+  m_Text: Polynesian Islands
 --- !u!222 &2057683219
 CanvasRenderer:
   m_ObjectHideFlags: 0
