@@ -3,12 +3,12 @@
 var active : boolean;
 var player : GameObject;
 
-function Start () {
-	player = GameObject.FindWithTag("Player");
+function Start () {	
 	active = false;
 }
 
 function Update () {
+	player = GameObject.FindWithTag("Player");
 	if ( (active == true) && (Vector3.Distance(transform.position, player.transform.position) < 100) ){
 		var levelCompleteUI = GameObject.FindWithTag ("Canvas").transform.GetChild (5).gameObject;
 		levelCompleteUI.SetActive (true);

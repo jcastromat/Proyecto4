@@ -8,6 +8,8 @@ public class UseItem : MonoBehaviour {
 
 		Debug.Log ("Custom item usage executing for item: " + itemName);
 
+		PlayerPrefs.SetString ("nave", itemName);
+
 		/* 
 		 * TODO implement your own custom code for what happens when an item is used
 		 * 
