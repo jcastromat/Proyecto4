@@ -201,7 +201,7 @@ namespace UnityStandardAssets.Water
             }
 
 			//unity error
-			//if(!mat.HasProperty("WaveSpeed") || !mat.HasProperty("_WaveScale")) return;
+			if(!mat.HasProperty("WaveSpeed") || !mat.HasProperty("_WaveScale")) return;
 
             Vector4 waveSpeed = mat.GetVector("WaveSpeed");
             float waveScale = mat.GetFloat("_WaveScale");
