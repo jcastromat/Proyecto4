@@ -16,18 +16,21 @@ public class EnemyAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		playerDistance = Vector3.Distance (player.position, transform.position); 
 
-		if (playerDistance < 200f) {
-			lookAtPlayer ();
-		}
+		if (player != null) {
+			playerDistance = Vector3.Distance (player.position, transform.position); 
 
-		if ((playerDistance < 150f) && (playerDistance > 15f))  {
-			chase ();
-		}
+			if (playerDistance < 200f) {
+				lookAtPlayer ();
+			}
 
-		if (playerDistance < 50f) {
-			attack ();
+			if ((playerDistance < 150f) && (playerDistance > 15f)) {
+				chase ();
+			}
+
+			if (playerDistance < 50f) {
+				attack ();
+			}
 		}
 	}
 

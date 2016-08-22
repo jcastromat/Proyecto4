@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DeletePrefs.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ManageSpaceships.cs">
     <Files>
       <File FileName="Assets/Scripts/MenuPrincipal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ManageSpaceships.cs" Line="16" Column="5" />
-      <File FileName="Assets/Standard Assets/ManagePortal.js" Line="6" Column="20" />
+      <File FileName="Assets/Scripts/ManageSpaceships.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/ManagePortal.js" Line="13" Column="58" />
       <File FileName="Assets/Scripts/DeletePrefs.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
