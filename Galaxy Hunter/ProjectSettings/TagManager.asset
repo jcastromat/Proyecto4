@@ -16,6 +16,7 @@ TagManager:
   - EscMontana
   - EscDesierto
   - EscEspacio
+  - escenarios
   layers:
   - Default
   - TransparentFX

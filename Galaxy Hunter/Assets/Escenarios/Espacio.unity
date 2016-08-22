@@ -12704,11 +12704,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22449966, guid: c73e142dc2d084db7ab00bd82ba89b4d, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22449966, guid: c73e142dc2d084db7ab00bd82ba89b4d, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 453078, guid: c73e142dc2d084db7ab00bd82ba89b4d, type: 2}
       propertyPath: m_LocalPosition.x
@@ -14264,6 +14264,7 @@ MonoBehaviour:
   naveCaza: {fileID: 1254658369}
   naveRaptor: {fileID: 821564841}
   naveExplorador: {fileID: 1198148583}
+  naveCrucero: {fileID: 1254658369}
 --- !u!1 &2133764858
 GameObject:
   m_ObjectHideFlags: 0
