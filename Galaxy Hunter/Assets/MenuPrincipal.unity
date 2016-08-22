@@ -4468,7 +4468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 21300000, guid: 006518e797195014cb8766f39423c4dc, type: 3}
   itemName: Nave Caza
-  itemCost: 1
+  itemCost: 0
   itemDesc: Nave Basica
 --- !u!1 &494776300
 GameObject:
@@ -9128,7 +9128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 21300000, guid: ba322eef0a48bec47acd71d139792f9f, type: 3}
   itemName: Nave Raptor
-  itemCost: 5
+  itemCost: 0
   itemDesc: Nave avanzada pleyediana
 --- !u!1 &1042329706
 GameObject:
@@ -14173,10 +14173,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311a1905e0974a34ca1f121dbf0fd11e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
-  itemName: Item 4
-  itemCost: 4
-  itemDesc: Test item 4
+  itemImage: {fileID: 21300000, guid: 1b35092f65fb25c4dbc77748e7e0d12d, type: 3}
+  itemName: Crucero
+  itemCost: 10
+  itemDesc: Nave crucero de batalla
 --- !u!1 &1569000407
 GameObject:
   m_ObjectHideFlags: 0
